@@ -3,6 +3,7 @@ version: 0.1
 phases:
   build:
     commands:
+      - echo Installing NPM...
       - npm install
       - npm run webpack
 
