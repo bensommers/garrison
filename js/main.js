@@ -1,6 +1,5 @@
-import 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import ExampleWork from './example-work.js';
 
-console.log("Lodaded react-dom");
-
-console.log("Webpack works");
-
+ReactDOM.render(<ExampleWork />, document.getElementByID('example-work'));
